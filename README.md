@@ -1,28 +1,36 @@
-def add(a: float, b: float) -> float:
-    """Return the sum of a and b."""
-    return a + b
+# Python Calculator
 
+A small command-line calculator written in Python. This project was built as an early Python exercise, focusing on functions, type hints, documentation, and basic error handling.
 
-def subtract(a: float, b: float) -> float:
-    """Return a minus b."""
-    return a - b
+## Features
 
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Division-by-zero handling
+- Type hints and function docstrings
 
-def multiply(a: float, b: float) -> float:
-    """Return the product of a and b."""
-    return a * b
+## Example
 
+```text
+Calculator demo:
+add(10, 5) = 15
+subtract(10, 5) = 5
+multiply(10, 5) = 50
+divide(10, 5) = 2.0
+```
 
-def divide(a: float, b: float) -> float:
-    """Return a divided by b. Raises ZeroDivisionError if b is zero."""
-    if b == 0:
-        raise ZeroDivisionError("Cannot divide by zero")
-    return a / b
+## Run locally
 
+```bash
+python3 calculator.py
+```
 
-if __name__ == "__main__":
-    print("Calculator demo:")
-    print(f"add(10, 5) = {add(10, 5)}")
-    print(f"subtract(10, 5) = {subtract(10, 5)}")
-    print(f"multiply(10, 5) = {multiply(10, 5)}")
-    print(f"divide(10, 5) = {divide(10, 5)}")
+## Tech stack
+
+- Python 3
+
+## Project status
+
+Completed beginner Python project. Retained as part of the project's development history.
